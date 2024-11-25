@@ -4,4 +4,8 @@
 .AppleDouble
 .LSOverride
 
+build
+node_modules
+yarn.lock
+
 chat.md

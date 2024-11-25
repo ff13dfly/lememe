@@ -31,7 +31,12 @@
         #! Solidity v0.5.16 (solc-js)
         #! Node v20.12.1
         #! Web3.js v1.10.0
+
+        # console to run command
+        truffle console
     ```
+
+* Update the Solidity version. Set the special version in `truffle-config.js`.
 
 ### Ganache
 
@@ -97,6 +102,20 @@
         Id:       1337
 
         RPC Listening on 127.0.0.1:8545 -->
+    ```
+
+* Update Ganache version.
+
+    ```BASH
+        # check version before update
+        ganache --version
+
+        # update to latest version
+        npm install -g ganache
+        
+        # check version after update
+        ganache --version
+
     ```
 
 ### Smart Contract
