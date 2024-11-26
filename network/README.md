@@ -111,10 +111,13 @@
         ganache --version
 
         # update to latest version
-        npm install -g ganache
+        yarn global add ganache
         
         # check version after update
         ganache --version
+
+        # run by special version
+        ganache --hardfork istanbul --verbose
 
     ```
 

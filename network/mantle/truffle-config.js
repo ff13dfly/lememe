@@ -8,7 +8,10 @@ module.exports = {
   },
   compilers: {
     solc: {
-      version: "0.8.27"
-    }
+      version: "0.8.27",
+      settings: {          // See the solidity docs for advice about optimization and evmVersion
+        evmVersion: "istanbul",
+      }
+    },
   }
 };
