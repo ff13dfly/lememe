@@ -63,3 +63,8 @@
 ### Token
 
 * Token can be swap by uniswap.
+
+
+## Resource
+
+* [https://github.com/AmazingAng/WTF-Solidity?tab=readme-ov-file](https://github.com/AmazingAng/WTF-Solidity?tab=readme-ov-file)
